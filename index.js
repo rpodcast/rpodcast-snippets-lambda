@@ -10,8 +10,8 @@ var pd = require('pretty-data').pd;
 let s3 = new AWS.S3({apiVersion: '2006-03-01'});
 var listObjectsV2Param = {
   Bucket: 'rpodcast-snippets-audio',
-  MaxKeys: 1000,
-  Prefix: 'bands/'
+  MaxKeys: 1000
+  //Prefix: 'bands/'
 };
 
 var mediaURL = 'http://rpodcast-snippets-audio.s3-website-us-east-1.amazonaws.com/';
