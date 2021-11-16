@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/rpodcast/rpodcast-snippets-lambda#readme",
   "dependencies": {
-    "aws-sdk": "^2.553.0",
+    "aws-sdk": "^2.814.0",
     "pretty-data": "^0.40.0",
     "rss": "^1.2.2"
   }
